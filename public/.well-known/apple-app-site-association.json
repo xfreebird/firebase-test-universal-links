@@ -6,7 +6,13 @@
         "appID": "H86U5Z8HYB.com.test.universal.links",
         "paths": [
           "/demo.html"
+        ],
+        "components": [
+          {
+            "/" : "/demo.html"
+          }
         ]
+
       }
     ]
   },
