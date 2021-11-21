@@ -4,22 +4,17 @@
     "details": [
       {
         "appIDs": [
-          "H86U5Z8HYB.com.test.universal.links"],
+          "H86U5Z8HYB.com.test.universal.links"
+        ],
         "paths": [
           "/demo.html"
         ],
         "components": [
           {
-            "/" : "/*"
+            "/": "/*"
           }
         ]
-
       }
-    ]
-  },
-  "activitycontinuation": {
-    "apps": [
-      "CSAB5R6X22.com.test.universal.links"
     ]
   }
 }
