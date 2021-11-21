@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "appAssociation": "NONE",
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -8,8 +9,8 @@
     ],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/.well-known/apple-app-site-association",
+        "destination": "/.well-known/apple-app-site-association.json"
       }
     ]
   }
