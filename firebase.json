@@ -12,6 +12,17 @@
         "source": "/.well-known/apple-app-site-association",
         "destination": "/.well-known/apple-app-site-association.json"
       }
+    ],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-store, max-age=0"
+          }
+        ]
+      }
     ]
   }
 }
