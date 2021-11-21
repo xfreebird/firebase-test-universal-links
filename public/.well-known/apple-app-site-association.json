@@ -3,7 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appID": "H86U5Z8HYB.com.test.universal.links",
+        "appIDs": [
+          "H86U5Z8HYB.com.test.universal.links"],
         "paths": [
           "/demo.html"
         ],
